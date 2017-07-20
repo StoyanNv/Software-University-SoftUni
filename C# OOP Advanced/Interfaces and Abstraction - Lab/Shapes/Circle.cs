@@ -13,7 +13,6 @@ public class Circle : IDrawable
         get { return radius; }
         private set { radius = value; }
     }
-
     public void Draw()
     {
         double r_in = this.Radius - 0.4;
@@ -33,7 +32,6 @@ public class Circle : IDrawable
                 }
             }
             Console.WriteLine();
-
         }
     }
 }

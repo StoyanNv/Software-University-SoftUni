@@ -25,7 +25,9 @@ public class Rectangle: IDrawable
     {
         DrawLine(this.Width, '*', '*');
         for (int i = 1; i < this.Height - 1; ++i)
+        {
             DrawLine(this.Width, '*', ' ');
+        }
         DrawLine(this.Width, '*', '*');
     }
     private void DrawLine(int width, char end, char mid)
@@ -37,7 +39,4 @@ public class Rectangle: IDrawable
         }
         Console.WriteLine(end);
     }
-
-  
-
 }
