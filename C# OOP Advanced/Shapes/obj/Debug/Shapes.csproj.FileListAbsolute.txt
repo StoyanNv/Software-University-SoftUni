@@ -1,6 +1,0 @@
-C:\Users\Asus\documents\visual studio 2017\Projects\Interfaces and Abstraction - Lab\Shapes\bin\Debug\Shapes.exe.config
-C:\Users\Asus\documents\visual studio 2017\Projects\Interfaces and Abstraction - Lab\Shapes\bin\Debug\Shapes.exe
-C:\Users\Asus\documents\visual studio 2017\Projects\Interfaces and Abstraction - Lab\Shapes\bin\Debug\Shapes.pdb
-C:\Users\Asus\documents\visual studio 2017\Projects\Interfaces and Abstraction - Lab\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
-C:\Users\Asus\documents\visual studio 2017\Projects\Interfaces and Abstraction - Lab\Shapes\obj\Debug\Shapes.exe
-C:\Users\Asus\documents\visual studio 2017\Projects\Interfaces and Abstraction - Lab\Shapes\obj\Debug\Shapes.pdb
