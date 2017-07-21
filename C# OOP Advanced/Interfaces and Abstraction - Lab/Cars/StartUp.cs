@@ -1,6 +1,6 @@
 ﻿using System;
 
-internal class StartUp
+public class StartUp
 {
     private static void Main()
     {
