@@ -1,6 +1,0 @@
-c:\users\asus\documents\visual studio 2017\Projects\Generics - Exercise\01. Generic Box of String\bin\Debug\_01.Generic_Box_of_String.exe.config
-c:\users\asus\documents\visual studio 2017\Projects\Generics - Exercise\01. Generic Box of String\bin\Debug\_01.Generic_Box_of_String.exe
-c:\users\asus\documents\visual studio 2017\Projects\Generics - Exercise\01. Generic Box of String\bin\Debug\_01.Generic_Box_of_String.pdb
-c:\users\asus\documents\visual studio 2017\Projects\Generics - Exercise\01. Generic Box of String\obj\Debug\01. Generic Box of String.csprojResolveAssemblyReference.cache
-c:\users\asus\documents\visual studio 2017\Projects\Generics - Exercise\01. Generic Box of String\obj\Debug\_01.Generic_Box_of_String.exe
-c:\users\asus\documents\visual studio 2017\Projects\Generics - Exercise\01. Generic Box of String\obj\Debug\_01.Generic_Box_of_String.pdb
