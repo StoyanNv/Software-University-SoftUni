@@ -1,0 +1,6 @@
+D:\Folders\SoftUni\03.2 C# OOP Adv\07. SOLID\05.Security Door\bin\Debug\05.Security Door.exe.config
+D:\Folders\SoftUni\03.2 C# OOP Adv\07. SOLID\05.Security Door\bin\Debug\05.Security Door.exe
+D:\Folders\SoftUni\03.2 C# OOP Adv\07. SOLID\05.Security Door\bin\Debug\05.Security Door.pdb
+D:\Folders\SoftUni\03.2 C# OOP Adv\07. SOLID\05.Security Door\obj\Debug\05.Security Door.csprojResolveAssemblyReference.cache
+D:\Folders\SoftUni\03.2 C# OOP Adv\07. SOLID\05.Security Door\obj\Debug\05.Security Door.exe
+D:\Folders\SoftUni\03.2 C# OOP Adv\07. SOLID\05.Security Door\obj\Debug\05.Security Door.pdb

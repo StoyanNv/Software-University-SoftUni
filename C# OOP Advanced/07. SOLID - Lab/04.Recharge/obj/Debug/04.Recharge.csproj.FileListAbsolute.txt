@@ -1,0 +1,5 @@
+D:\Folders\SoftUni\03.2 C# OOP Adv\07. SOLID\04.Recharge\bin\Debug\04.Recharge.dll
+D:\Folders\SoftUni\03.2 C# OOP Adv\07. SOLID\04.Recharge\bin\Debug\04.Recharge.pdb
+D:\Folders\SoftUni\03.2 C# OOP Adv\07. SOLID\04.Recharge\obj\Debug\04.Recharge.csprojResolveAssemblyReference.cache
+D:\Folders\SoftUni\03.2 C# OOP Adv\07. SOLID\04.Recharge\obj\Debug\04.Recharge.dll
+D:\Folders\SoftUni\03.2 C# OOP Adv\07. SOLID\04.Recharge\obj\Debug\04.Recharge.pdb
