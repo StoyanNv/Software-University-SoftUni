@@ -1,0 +1,9 @@
+C:\Users\Asus\Desktop\Stations\Stations.Models\bin\Debug\netcoreapp2.0\Stations.Models.deps.json
+C:\Users\Asus\Desktop\Stations\Stations.Models\bin\Debug\netcoreapp2.0\Stations.Models.dll
+C:\Users\Asus\Desktop\Stations\Stations.Models\bin\Debug\netcoreapp2.0\Stations.Models.pdb
+C:\Users\Asus\Desktop\Stations\Stations.Models\obj\Debug\netcoreapp2.0\Stations.Models.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\Stations\Stations.Models\obj\Debug\netcoreapp2.0\Stations.Models.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Stations\Stations.Models\obj\Debug\netcoreapp2.0\Stations.Models.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Stations\Stations.Models\obj\Debug\netcoreapp2.0\Stations.Models.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Stations\Stations.Models\obj\Debug\netcoreapp2.0\Stations.Models.dll
+C:\Users\Asus\Desktop\Stations\Stations.Models\obj\Debug\netcoreapp2.0\Stations.Models.pdb
