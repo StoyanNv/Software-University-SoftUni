@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time Converter</title>
+    <script>
+        function attachEventsListeners() {
+            document.getElementById('daysBtn').addEventListener('click', daysConv);
+            document.getElementById('hoursBtn').addEventListener('click', hoursConv);
+            document.getElementById('minutesBtn').addEventListener('click', minutesConv);
+            document.getElementById('secondsBtn').addEventListener('click', secondsConv);
+
+            function daysConv() {
+                let daysVal = Number(document.getElementById('days').value);
+                document.getElementById('hours').value = daysVal * 24;
+                document.getElementById('minutes').value = daysVal * 24 * 60;
+                document.getElementById('seconds').value = daysVal * 24 * 60 * 60;
+            }
+
+            function hoursConv() {
+                let hoursVal = Number(document.getElementById('hours').value);
+                document.getElementById('days').value = hoursVal / 24;
+                document.getElementById('minutes').value = hoursVal * 60;
+                document.getElementById('seconds').value = hoursVal * 60 * 60;
+            }
+
+            function minutesConv() {
+                let minutesVal = Number(document.getElementById('minutes').value);
+                document.getElementById('days').value = minutesVal / 24 / 60;
+                document.getElementById('hours').value = minutesVal / 60;
+                document.getElementById('seconds').value = minutesVal * 60;
+            }
+
+            function secondsConv() {
+                let secondsVal = Number(document.getElementById('seconds').value);
+                document.getElementById('days').value = secondsVal / 24 / 60 / 60;
+                document.getElementById('hours').value = secondsVal / 60 / 60;
+                document.getElementById('minutes').value = secondsVal / 60;
+            }
+        }
+    </script>
+    <style>
+        label, input {
+            display: inline-block;
+            width: 5em;
+        }
+
+        label {
+            text-align: right;
+        }
+    </style>
+</head>
+<body onload="attachEventsListeners()">
+<h1>Time Converter</h1>
+<div>
+    <label for="days">Days: </label>
+    <input type="text" id="days">
+    <input id="daysBtn" type="button" value="Convert">
+</div>
+<div>
+    <label for="hours">Hours: </label>
+    <input type="text" id="hours">
+    <input id="hoursBtn" type="button" value="Convert">
+</div>
+<div>
+    <label for="minutes">Minutes: </label>
+    <input type="text" id="minutes">
+    <input id="minutesBtn" type="button" value="Convert">
+</div>
+<div>
+    <label for="seconds">Seconds: </label>
+    <input type="text" id="seconds">
+    <input id="secondsBtn" type="button" value="Convert">
+</div>
+</body>
+</html>
