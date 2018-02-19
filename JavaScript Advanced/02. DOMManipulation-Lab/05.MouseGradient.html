@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<html>
+<head>
+    <title>Mouse in Gradient</title>
+    <style>
+        #gradient-box {
+            width: 300px;
+            border: 2px solid lightgrey;
+        }
+
+        #gradient-box:hover {
+            border: 2px solid black;
+        }
+
+        #gradient {
+            height: 30px;
+            color: white;
+            text-shadow: 1px 1px 10px black;
+            text-align: center;
+            line-height: 30px;
+            background: linear-gradient(to right, black, white);
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body onload="attachGradientEvents()">
+<div id="gradient-box">
+    <div id="gradient">Click me!</div>
+</div>
+<div id="result"></div>
+<script>
+    function attachGradientEvents() {
+        let gradient = document.getElementById('gradient-box');
+        let over = gradient.addEventListener('mousemove', function (event) {
+            let res = Math.floor((event.offsetX / (event.target.clientWidth - 1)) * 100);
+            document.getElementById('result').textContent = res + '%';
+        });
+        gradient.addEventListener('mouseleave', function () {
+            document.getElementById('result').textContent = ''
+        })
+    }
+</script>
+</body>
+</html>
+
+</body>
+</html>

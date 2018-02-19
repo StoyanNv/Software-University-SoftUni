@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Focus</title>
+    <style>.error {
+        border: 2px solid red;
+    }</style>
+</head>
+<body onload="validate()">
+<label for="email">Enter email:</label>
+<input id="email" type="text"/>
+<script>
+    function validate() {
+        let reg = /^[a-z]+@[a-z]+\.[a-z]+\b/;
+        let input = document.getElementById('email');
+        input.addEventListener('change', function () {
+            let value = input.value;
+            if (reg.test(value)) {
+                input.className = ''
+            }
+            else {
+                input.className = 'error'
+            }
+        })
+    }
+</script>
+</body>
+</html>
+
+</body>
+</html>
