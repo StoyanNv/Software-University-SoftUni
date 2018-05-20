@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style/form.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <meta charset="utf-8" />
+    <title>SoftUni Beers</title>
+</head>
+<body>
+    <nav>
+        <div class="topnav">
+            <a href="index.html" class="logo"><img src="images/logo.png" /></a>
+            <a href="index.html">Home</a>
+            <a href="all-beers.html">See All Beers</a>
+            <a href="order.html" class="active">Order a Beer</a>
+            <a href="register.html" class="right">Register</a>
+            <a href="login.html" class="right">Log in</a>
+        </div>
+    </nav>
+    <main>
+        <center>
+            <form>
+                <br />
+                <label>Brand</label>
+                <select>
+                    <option selected disabled>
+                        Select a brand
+                    </option>
+                    <option>
+                        Corona Extra 330ml
+                    </option>
+                    <option>
+                        Stella Artois 500ml
+                    </option>
+                    <option>
+                        Carlsberg 330ml
+                    </option>
+                    <option>
+                        Heineken 330ml
+                    </option>
+                </select>
+                <label>Quantity</label>
+                <input placeholder="Enter amount of beers" type="number" min="1" max="15">
+                <label>Destination</label>
+                <select>
+                    <option selected disabled>
+                        Select a destination
+                    </option>
+                    <option>
+                        Corona Extra 330ml
+                    </option>
+                    <option>
+                        Sofia
+                    </option>
+                    <option>
+                        Plovdiv
+                    </option>
+                    <option>
+                        Burgas
+                    </option>
+                </select>
+                <label>Enter your birthdate</label>
+                <input type="date">
+                <label>Got an opinion, comment, recommendation? Share it with us!</label>
+                <input placeholder="Share your opinion with us!" type="text">
+                <input type="submit" value="Order">
+            </form>
+        </center>
+    </main>
+    <footer>
+        <hr />
+        <p><em>&copy; 2017 &ndash; SoftUni Beers</em></p>
+    </footer>
+</body>
+</html>
