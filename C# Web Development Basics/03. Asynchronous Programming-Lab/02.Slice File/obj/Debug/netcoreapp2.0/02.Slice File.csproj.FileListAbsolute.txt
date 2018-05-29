@@ -1,0 +1,11 @@
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Asynchronous Programming-Lab\02.Slice File\bin\Debug\netcoreapp2.0\02.Slice File.deps.json
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Asynchronous Programming-Lab\02.Slice File\bin\Debug\netcoreapp2.0\02.Slice File.runtimeconfig.json
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Asynchronous Programming-Lab\02.Slice File\bin\Debug\netcoreapp2.0\02.Slice File.runtimeconfig.dev.json
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Asynchronous Programming-Lab\02.Slice File\bin\Debug\netcoreapp2.0\02.Slice File.dll
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Asynchronous Programming-Lab\02.Slice File\bin\Debug\netcoreapp2.0\02.Slice File.pdb
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Asynchronous Programming-Lab\02.Slice File\obj\Debug\netcoreapp2.0\02.Slice File.csprojAssemblyReference.cache
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Asynchronous Programming-Lab\02.Slice File\obj\Debug\netcoreapp2.0\02.Slice File.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Asynchronous Programming-Lab\02.Slice File\obj\Debug\netcoreapp2.0\02.Slice File.AssemblyInfoInputs.cache
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Asynchronous Programming-Lab\02.Slice File\obj\Debug\netcoreapp2.0\02.Slice File.AssemblyInfo.cs
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Asynchronous Programming-Lab\02.Slice File\obj\Debug\netcoreapp2.0\02.Slice File.dll
+C:\Users\Asus\Documents\Visual Studio 2017\Projects\Asynchronous Programming-Lab\02.Slice File\obj\Debug\netcoreapp2.0\02.Slice File.pdb
