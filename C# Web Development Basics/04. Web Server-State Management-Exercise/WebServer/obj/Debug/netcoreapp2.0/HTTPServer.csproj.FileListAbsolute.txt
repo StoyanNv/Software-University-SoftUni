@@ -1,0 +1,11 @@
+D:\Folders\SoftUni\06.1 C# Web Development Basics\04. By The Cake App\WebServer\bin\Debug\netcoreapp2.0\HTTPServer.deps.json
+D:\Folders\SoftUni\06.1 C# Web Development Basics\04. By The Cake App\WebServer\bin\Debug\netcoreapp2.0\HTTPServer.runtimeconfig.json
+D:\Folders\SoftUni\06.1 C# Web Development Basics\04. By The Cake App\WebServer\bin\Debug\netcoreapp2.0\HTTPServer.runtimeconfig.dev.json
+D:\Folders\SoftUni\06.1 C# Web Development Basics\04. By The Cake App\WebServer\bin\Debug\netcoreapp2.0\HTTPServer.dll
+D:\Folders\SoftUni\06.1 C# Web Development Basics\04. By The Cake App\WebServer\bin\Debug\netcoreapp2.0\HTTPServer.pdb
+D:\Folders\SoftUni\06.1 C# Web Development Basics\04. By The Cake App\WebServer\obj\Debug\netcoreapp2.0\HTTPServer.csprojAssemblyReference.cache
+D:\Folders\SoftUni\06.1 C# Web Development Basics\04. By The Cake App\WebServer\obj\Debug\netcoreapp2.0\HTTPServer.csproj.CoreCompileInputs.cache
+D:\Folders\SoftUni\06.1 C# Web Development Basics\04. By The Cake App\WebServer\obj\Debug\netcoreapp2.0\HTTPServer.AssemblyInfoInputs.cache
+D:\Folders\SoftUni\06.1 C# Web Development Basics\04. By The Cake App\WebServer\obj\Debug\netcoreapp2.0\HTTPServer.AssemblyInfo.cs
+D:\Folders\SoftUni\06.1 C# Web Development Basics\04. By The Cake App\WebServer\obj\Debug\netcoreapp2.0\HTTPServer.dll
+D:\Folders\SoftUni\06.1 C# Web Development Basics\04. By The Cake App\WebServer\obj\Debug\netcoreapp2.0\HTTPServer.pdb
