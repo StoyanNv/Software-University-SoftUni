@@ -1,8 +1,8 @@
-﻿using HTTPServer.GameStore.Models;
-using Microsoft.EntityFrameworkCore;
-
-namespace HTTPServer.GameStore.Data
+﻿namespace HTTPServer.GameStore.Data
 {
+    using Models;
+    using Microsoft.EntityFrameworkCore;
+
     public class GameStoreContext : DbContext
     {
         public DbSet<User> Users { get; set; }

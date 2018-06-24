@@ -1,11 +1,10 @@
-﻿using HTTPServer.GameStore.Controllers;
-using HTTPServer.GameStore.Data;
-using HTTPServer.Server.Contracts;
-using HTTPServer.Server.Routing.Contracts;
-using Microsoft.EntityFrameworkCore;
-
-namespace HTTPServer.GameStore
+﻿namespace HTTPServer.GameStore
 {
+    using Controllers;
+    using Data;
+    using Server.Contracts;
+    using Server.Routing.Contracts;
+    using Microsoft.EntityFrameworkCore;
     public class GameStoreApplication : IApplication
     {
         public void Configure(IAppRouteConfig appRouteConfig)

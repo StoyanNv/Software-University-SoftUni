@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-
-namespace HTTPServer.GameStore.Models
+﻿namespace HTTPServer.GameStore.Models
 {
+    using System.Collections.Generic;
+
     public class Order
     {
         public Order()

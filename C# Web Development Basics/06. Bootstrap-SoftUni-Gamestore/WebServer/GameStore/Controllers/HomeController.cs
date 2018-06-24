@@ -1,12 +1,11 @@
-﻿using System;
-using System.Linq;
-using HTTPServer.GameStore.Models;
-using HTTPServer.GameStore.Infrastructure;
-using HTTPServer.Server.Http;
-using HTTPServer.Server.Http.Contracts;
-
-namespace HTTPServer.GameStore.Controllers
+﻿namespace HTTPServer.GameStore.Controllers
 {
+    using System;
+    using System.Linq;
+    using Models;
+    using Infrastructure;
+    using Server.Http;
+    using Server.Http.Contracts;
     public class HomeController : Controller
     {
         public IHttpResponse Index(IHttpRequest req)

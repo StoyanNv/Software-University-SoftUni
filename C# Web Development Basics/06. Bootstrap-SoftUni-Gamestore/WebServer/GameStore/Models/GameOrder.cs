@@ -1,7 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace HTTPServer.GameStore.Models
+﻿namespace HTTPServer.GameStore.Models
 {
+    using System.ComponentModel.DataAnnotations;
+
     public class GameOrder
     {
         [Key]

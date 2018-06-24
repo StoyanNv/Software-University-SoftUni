@@ -1,12 +1,11 @@
-﻿using System.Collections.Generic;
-using HTTPServer.Server.Http.Response;
-
-namespace HTTPServer.GameStore.Controllers
+﻿namespace HTTPServer.GameStore.Controllers
 {
     using Infrastructure;
     using Models;
+    using System.Collections.Generic;
     using Server.Http;
     using Server.Http.Contracts;
+    using Server.Http.Response;
     using System;
     using System.Linq;
     class GameController : Controller
