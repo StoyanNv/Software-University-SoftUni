@@ -1,0 +1,10 @@
+﻿@using FDMC.App.Models.ViewModels
+@model FDMC.App.Models.ViewModels.CatDetailsViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+<h2>@Model.Name</h2>
+<img src="@Model.ImageUrl" alt="Picture for @Model.Name" style="max-width: 300px" />
+<p><strong>Age: </strong>@Model.Age</p>
+<p><strong>Breed: </strong>@Model.Breed</p>
+<a asp-controller="Home" asp-action="Index">Home</a>

@@ -1,0 +1,14 @@
+﻿@using FDMC.App.Models.ViewModels
+@model IEnumerable<CatConciseViewModel>
+@{
+    ViewData["Title"] = "Home";
+}
+<h1>Fluffy Duffy Munchkin Cats</h1>
+<ul>
+
+    @foreach (var cat in Model)
+    {
+        <li><a asp-controller="Cats" asp-action="Details" asp-route-id="@cat.Id">@cat.Name</a></li>
+    }
+    <a asp-controller="Cats" asp-action="Add">Add Cat</a>
+</ul>

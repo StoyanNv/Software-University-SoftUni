@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FDMC.Data\FDMC.Data.csproj" />
+    <ProjectReference Include="..\FDMC.Models\FDMC.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="..\..\Fluffy Duffy Munchkin Cats %2528FDMC%2529\FDMC.App\Models\ViewModels\" />
+    <Folder Include="..\..\Fluffy Duffy Munchkin Cats %2528FDMC%2529\FDMC.App\Models\ViewModels\" />
+  </ItemGroup>
+
+</Project>
