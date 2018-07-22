@@ -1,0 +1,7 @@
+﻿@using Models
+@model Models.SearchViewModel
+<li>
+    <a href="@(Url.Page($"/{Model.Type}s/Details", new { id = Model.Id }))">
+        @Html.Raw(Model.SearchResult)
+    </a>
+</li>
