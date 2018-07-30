@@ -1,9 +1,0 @@
-C:\Users\Asus\Documents\Visual Studio 2017\Projects\BookLibrary\BookLibrary.Models\bin\Debug\netcoreapp2.1\BookLibrary.Models.deps.json
-C:\Users\Asus\Documents\Visual Studio 2017\Projects\BookLibrary\BookLibrary.Models\bin\Debug\netcoreapp2.1\BookLibrary.Models.dll
-C:\Users\Asus\Documents\Visual Studio 2017\Projects\BookLibrary\BookLibrary.Models\bin\Debug\netcoreapp2.1\BookLibrary.Models.pdb
-C:\Users\Asus\Documents\Visual Studio 2017\Projects\BookLibrary\BookLibrary.Models\obj\Debug\netcoreapp2.1\BookLibrary.Models.csprojAssemblyReference.cache
-C:\Users\Asus\Documents\Visual Studio 2017\Projects\BookLibrary\BookLibrary.Models\obj\Debug\netcoreapp2.1\BookLibrary.Models.csproj.CoreCompileInputs.cache
-C:\Users\Asus\Documents\Visual Studio 2017\Projects\BookLibrary\BookLibrary.Models\obj\Debug\netcoreapp2.1\BookLibrary.Models.AssemblyInfoInputs.cache
-C:\Users\Asus\Documents\Visual Studio 2017\Projects\BookLibrary\BookLibrary.Models\obj\Debug\netcoreapp2.1\BookLibrary.Models.AssemblyInfo.cs
-C:\Users\Asus\Documents\Visual Studio 2017\Projects\BookLibrary\BookLibrary.Models\obj\Debug\netcoreapp2.1\BookLibrary.Models.dll
-C:\Users\Asus\Documents\Visual Studio 2017\Projects\BookLibrary\BookLibrary.Models\obj\Debug\netcoreapp2.1\BookLibrary.Models.pdb
