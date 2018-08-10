@@ -1,0 +1,14 @@
+﻿@model BookConciseViewModel
+
+<tr>
+    <td><a asp-page="/Books/Details" asp-route-id="@(Model.BookId)">@Model.Title</a></td>
+    <td><a asp-page="/Authors/Details" asp-route-id="@(Model.AuthorId)">@Model.Author</a></td>
+    @if (!@Model.IsBorrowed)
+    {
+        <td>At home</td>
+    }
+    else
+    {
+        <td>Borrowed</td>
+    }
+</tr>

@@ -1,0 +1,10 @@
+﻿@page "{id}"
+@model BookLibrary.Web.Pages.Authors.DetailsModel
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<h2>@Model.Name</h2>
+<ul>
+    @Html.DisplayFor(model=>model.BookNames)
+</ul>

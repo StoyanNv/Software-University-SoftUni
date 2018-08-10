@@ -1,0 +1,14 @@
+﻿@model MoviesConciseViewModel
+
+<tr>
+    <td><a asp-controller="Movies" asp-action="Details" asp-route-id="@(Model.MovieId)">@Model.Title</a></td>
+    <td><a asp-controller="Directors" asp-action="Details" asp-route-id="@(Model.DirectorId)">@Model.Director</a></td>
+    @if (!@Model.IsBorrowed)
+    {
+        <td>At home</td>
+    }
+    else
+    {
+        <td>Borrowed</td>
+    }
+</tr>

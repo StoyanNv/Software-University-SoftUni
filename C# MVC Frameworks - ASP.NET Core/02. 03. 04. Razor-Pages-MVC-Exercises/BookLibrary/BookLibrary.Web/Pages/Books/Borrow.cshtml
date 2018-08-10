@@ -1,0 +1,7 @@
+﻿@page "{id}"
+@model BookLibrary.Web.Pages.Books.BorrowModel
+@{
+    ViewData["Title"] = "Borrow";
+}
+<h2>Borrow the book</h2>
+@Html.EditorFor(model => model.BorrowingForm)   

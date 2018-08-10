@@ -1,0 +1,9 @@
+﻿@model DirectorDetailsViewModel
+@{
+    ViewData["Title"] = "Movies Details";
+}
+
+<h2>@Model.Name</h2>
+<ul>
+    @Html.DisplayFor(model => model.Movies)
+</ul>

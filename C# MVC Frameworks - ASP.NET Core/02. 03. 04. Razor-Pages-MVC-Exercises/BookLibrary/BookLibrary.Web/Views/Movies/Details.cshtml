@@ -1,0 +1,25 @@
+﻿@model MovieDetailsViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="row">
+    <div class="col-3">
+        <img style="max-width: 200px" src="@Model.PosterImage" alt="Cover image for @Model.Title" />
+    </div>
+    <div class="col-9">
+        <h2>@Model.Title</h2>
+        <h5>@Html.DisplayFor(model => model.Director)</h5>
+        <p>@Model.Description</p>
+        @if (!@Model.IsBorrowed)
+        {
+            <a class="btn btn-lg btn-warning" asp-controller="Movies" asp-action="Borrow" asp-route-id="@Model.Id">Borrow this movie</a>
+        }
+        else
+        {
+            <form method="post">
+                <input type="submit" class="btn btn-lg btn-success" asp-controller="Movies" asp-action="Return" as-route-id="@Model.Id" value="Return movie">
+            </form>
+        }
+    </div>
+</div>

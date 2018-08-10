@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<p>@Model.LogedUser</p>
+<h1>My Library</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>Title</td>
+            <td>Author</td>
+            <td>Status</td>
+        </tr>
+    </thead>
+    <tbody>
+        @Html.DisplayFor(model => model.Books)
+    </tbody>
+</table>
+<a asp-page="Books/Add" class="btn btn-success btn-lg">Add new book</a>
+<h1>My Movies</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>Title</td>
+            <td>Director</td>
+            <td>Status</td>
+        </tr>
+    </thead>
+    <tbody>
+        @Html.DisplayFor(model => model.Movies)
+    </tbody>
+</table>
+<a asp-controller="Movies" asp-action="Add" class="btn btn-success btn-lg">Add new movie</a>
+

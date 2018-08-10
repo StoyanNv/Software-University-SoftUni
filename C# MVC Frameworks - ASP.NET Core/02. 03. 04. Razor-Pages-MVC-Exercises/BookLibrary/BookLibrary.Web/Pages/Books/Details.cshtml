@@ -1,0 +1,25 @@
+﻿@page "{id}"
+@model BookLibrary.Web.Pages.Books.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+<div class="row">
+    <div class="col-3">
+        <img style="max-width: 200px" src="@Model.ImageUrl" alt="Cover image for @Model.Title" />
+    </div>
+    <div class="col-9">
+        <h2>@Model.Title</h2>
+        <h5>@Html.DisplayFor(model => model.Author)</h5>
+        <p>@Model.Description</p>
+        @if (!@Model.IsBorrowed)
+        {
+            <a class="btn btn-lg btn-warning" asp-page="/Books/Borrow" asp-route-id="@Model.Id">Borrow this book</a>
+        }
+        else
+        {
+            <form method="post">
+                <input type="submit" class="btn btn-lg btn-success" asp-page-handler="ReturnBook" asp-route-id="@Model.Id" value="Return Book">
+            </form>
+        }
+    </div>
+</div>
